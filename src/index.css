@@ -1,0 +1,25 @@
+.header-emergency {
+    font-size: 3rem;
+}
+
+.emergency {
+    background-color: #f8f9faa1;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .emergency_capacity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hospital_name {
+    font-size: 2rem;
+  }
+  
+  .capacity {
+    font-size: 2rem;
+  }
