@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Lotacao-leitos/static/css/main.fd70bb53.css",
+    "main.js": "/Lotacao-leitos/static/js/main.e315fa10.js",
+    "index.html": "/Lotacao-leitos/index.html",
+    "main.fd70bb53.css.map": "/Lotacao-leitos/static/css/main.fd70bb53.css.map",
+    "main.e315fa10.js.map": "/Lotacao-leitos/static/js/main.e315fa10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd70bb53.css",
+    "static/js/main.e315fa10.js"
+  ]
+}
