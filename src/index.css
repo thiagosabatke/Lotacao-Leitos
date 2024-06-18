@@ -1,25 +1,112 @@
 .header-emergency {
-    font-size: 3rem;
+  font-size: 3rem;
+  background-color: #4c8bf5; 
+  color: #fff; 
+  padding: 20px; 
+  border-radius: 5px; 
+  margin-bottom: 20px; 
+}
+
+.container-emergency {
+  padding: 20px; 
 }
 
 .emergency {
-    background-color: #f8f9faa1;
-    padding: 20px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .emergency_capacity {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .hospital_name {
-    font-size: 2rem;
-  }
-  
-  .capacity {
-    font-size: 2rem;
-  }
+  background-color: #f8f9faa1; 
+  padding: 20px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+.emergency_capacity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hospital_name {
+  font-size: 2rem;
+}
+
+.capacity {
+  font-size: 2rem;
+}
+
+.capacity.green {
+  color: green;
+}
+
+.capacity.orange {
+  color: orange;
+}
+
+.capacity.red {
+  color: red;
+}
+
+
+
+.home-content {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  color: #2b6bc0;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.home-content h2 {
+  font-size: 2rem;
+  color: #4c8bf5;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #4c8bf5;
+  padding-bottom: 10px;
+}
+
+.home-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-content ul li {
+  background: #e6f0ff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.home-content blockquote {
+  font-size: 1rem;
+  margin: 20px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border-left: 5px solid #4c8bf5;
+}
+
+.home-content blockquote footer {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.home-content section {
+  margin-bottom: 40px;
+}
+
+.home-content .contact-info {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}

@@ -8,41 +8,36 @@ import EmergenciaContent from './EmergenciaContent';
 function App() {
   const [activeTab, setActiveTab] = useState('home');
 
-  // Manipulador de seleção
   const handleSelect = (selectedKey) => {
     setActiveTab(selectedKey);
   };
 
   return (
     <div>
-      <Navbar className="navbar">
+      <Navbar style={{ backgroundColor: '#4c8bf5' }}>
         <Container>
-          <Navbar.Brand href="#home">Soft Health</Navbar.Brand>
+          <Navbar.Brand href="#home" style={{ color: 'white' }}>Soft Health</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              <a href="#">Login</a>
+              <a href="#" style={{ color: 'white' }}>Login</a>
             </Navbar.Text>
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
-      <Nav variant="tabs" activeKey={activeTab} onSelect={handleSelect}>
+      <Nav variant="tabs" activeKey={activeTab} onSelect={handleSelect} style={{ backgroundColor: '#4c8bf5' }}>
         <Nav.Item>
-          <Nav.Link eventKey="home">Home</Nav.Link>
+          <Nav.Link eventKey="home" style={{ color: activeTab === 'home' ? '#2b6bc0' : 'white' }}>Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="emergencia">Emergência</Nav.Link>
+          <Nav.Link eventKey="emergencia" style={{ color: activeTab === 'emergencia' ? '#2b6bc0' : 'white' }}>Emergência</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="disabled" disabled>
-            Agendar Consultas
-          </Nav.Link>
+          <Nav.Link eventKey="disabled" disabled style={{ color: 'white' }}>Agendar Consultas</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="disabled" disabled>
-            Resutado Consultas
-          </Nav.Link>
+          <Nav.Link eventKey="disabled" disabled style={{ color: 'white' }}>Resultado Consultas</Nav.Link>
         </Nav.Item>
       </Nav>
 
